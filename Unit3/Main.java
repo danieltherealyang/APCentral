@@ -23,7 +23,7 @@ public class Main {
     
     public static void main(String[] args) { 
         System.out.print('\u000C');
-        //3.3
+        //Q7
         weatherCheck(30);
         weatherCheck(51);
         weatherCheck(60);
@@ -58,7 +58,7 @@ public class Main {
         }
         System.out.println("Code segment I and code segment II produce the same output for all values of x and y.");
         
-        //3.6
+        //Q16
         int j = 1;
         int k = 2;
         int m = 3;
@@ -70,7 +70,7 @@ public class Main {
             System.out.println("Q16 ans: (B) (j != k) || (k <= m)");
         }
         
-        //3.7
+        //Q21
         String first = new String("duck");
         String second = new String("duck");
         String third = new String("goose");
